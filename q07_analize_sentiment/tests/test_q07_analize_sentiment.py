@@ -5,7 +5,7 @@ import numpy as np
 sys.path.append(os.path.join(os.path.dirname(os.curdir)))
 from unittest import TestCase
 from ..build import q07_analize_sentiment
-from q02_twitter_data.build import q02_twitter_data
+from greyatomlib.Twitter_sentiment_analysis_project.q02_twitter_data.build import q02_twitter_data
 from inspect import getfullargspec
 
 
